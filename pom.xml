@@ -23,7 +23,7 @@
     </licenses>
 
     <properties>
-        <aws-java-sdk.version>1.7.0</aws-java-sdk.version>
+        <aws-java-sdk.version>1.7.1</aws-java-sdk.version>
     </properties>
 
     <dependencies>
@@ -68,22 +68,6 @@
           </plugin>
         </plugins>
       </pluginManagement>
-
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-gpg-plugin</artifactId>
-          <executions>
-            <execution>
-              <id>sign-artifacts</id>
-              <phase>verify</phase>
-              <goals>
-                <goal>sign</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-      </plugins>
     </build>
 
 </project>
